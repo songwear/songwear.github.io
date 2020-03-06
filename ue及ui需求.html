@@ -1,0 +1,863 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>UE及UI需求</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/ue及ui需求/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/ue及ui需求/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- 菜单栏背景 (动态面板) -->
+      <div id="u234" class="ax_default" data-label="菜单栏背景">
+        <div id="u234_state0" class="panel_state" data-label="State1" style="">
+          <div id="u234_state0_content" class="panel_state_content">
+          </div>
+        </div>
+      </div>
+
+      <!-- 一、管理后台 (矩形) -->
+      <div id="u235" class="ax_default _二级标题" data-label="一、管理后台">
+        <div id="u235_div" class=""></div>
+        <div id="u235_text" class="text ">
+          <p><span>一 管理后台（即HR端）UI及UE诉求</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u236" class="ax_default _文本段落">
+        <div id="u236_div" class=""></div>
+        <div id="u236_text" class="text ">
+          <p style="font-size:20px;"><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;color:#33CCCC;">&#149; 2</span><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';font-weight:650;color:#33CCCC;">、</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-weight:400;font-size:16px;color:#515151;">管理后台的页面中，主要以列表为主；针对这些列表页面可以不要求所有的列表页面都出一份UI，但是需要把列表的相应的UI规范书出来，并且做一个示例的样表出来。包括配色行高字体颜色字体大小等等，还有搜索表单的一些要求，以及换页换行等等操作，需要给一个统一的规范。（这部分可以先进行规范设计，如果后续跟前端框架组件有冲突，可以再探讨如何调整）</span></p><p style="font-size:18px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-weight:400;">&nbsp;</span></p><p style="font-size:20px;"><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;color:#33CCCC;">&#149; 3</span><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';font-weight:650;color:#33CCCC;">、</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-weight:400;font-size:16px;color:#515151;">统一的交互规则：包括但是不仅限于loading、表单、弹窗、提示、非法校验、成功提醒等。</span></p><p style="font-size:16px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-weight:400;"><br></span></p><p style="font-size:16px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-weight:400;color:#515151;">&nbsp;PS：由于除了360以后，后续还会有其他的应用需要开发，如不出意外会用同一套交互规范。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u237" class="ax_default _文本段落">
+        <div id="u237_div" class=""></div>
+        <div id="u237_text" class="text ">
+          <p style="font-size:20px;"><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;color:#33CCCC;">&#149; 1</span><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';font-weight:650;color:#33CCCC;">、</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-weight:400;font-size:16px;color:#515151;">关于系统主色调及主要的配色：希望是比较互联网风格的配色，包括但不仅限于菜单、字体、按钮等页面元素，同时规定通用元素的移入、选中等状态、空数据状态下的交互规范.</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (动态面板) -->
+      <div id="u238" class="ax_default">
+        <div id="u238_state0" class="panel_state" data-label="State1" style="">
+          <div id="u238_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (树状菜单) -->
+            <div id="u239" class="ax_default tree_node treeroot">
+              <div id="u239_children" class="u239_children">
+
+                <!-- Unnamed (树节点) -->
+                <div id="u240" class="ax_default tree_node treenode">
+
+                  <!-- Unnamed (图片) -->
+                  <div id="u241" class="ax_default _图片">
+                    <img id="u241_img" class="img " src="images/ue及ui需求/u241_selected.png"/>
+                  </div>
+                  <!-- Unnamed (矩形) -->
+                  <div id="u242" class="" selectiongroup="u239_tree_group">
+                    <div id="u242_div" class=""></div>
+                    <div id="u242_text" class="text ">
+                      <p><span>管理后台</span></p>
+                    </div>
+                  </div>
+                  <div id="u240_children" class="u240_children">
+
+                    <!-- Unnamed (树节点) -->
+                    <div id="u243" class="ax_default tree_node treenode">
+                      <!-- Unnamed (矩形) -->
+                      <div id="u244" class="" selectiongroup="u239_tree_group">
+                        <div id="u244_div" class=""></div>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (树节点) -->
+                    <div id="u245" class="ax_default tree_node treenode">
+                      <!-- Unnamed (矩形) -->
+                      <div id="u246" class="" selectiongroup="u239_tree_group">
+                        <div id="u246_div" class=""></div>
+                        <div id="u246_text" class="text ">
+                          <p><span>通用诉求</span></p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (树节点) -->
+                    <div id="u247" class="ax_default tree_node treenode">
+                      <!-- Unnamed (矩形) -->
+                      <div id="u248" class="" selectiongroup="u239_tree_group">
+                        <div id="u248_div" class=""></div>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (树节点) -->
+                    <div id="u249" class="ax_default tree_node treenode">
+
+                      <!-- Unnamed (图片) -->
+                      <div id="u250" class="ax_default _图片">
+                        <img id="u250_img" class="img " src="images/ue及ui需求/u241_selected.png"/>
+                      </div>
+                      <!-- Unnamed (矩形) -->
+                      <div id="u251" class="" selectiongroup="u239_tree_group">
+                        <div id="u251_div" class=""></div>
+                        <div id="u251_text" class="text ">
+                          <p><span>特殊页面</span></p>
+                        </div>
+                      </div>
+                      <div id="u249_children" class="u249_children">
+
+                        <!-- Unnamed (树节点) -->
+                        <div id="u252" class="ax_default tree_node treenode">
+
+                          <!-- Unnamed (图片) -->
+                          <div id="u253" class="ax_default _图片">
+                            <img id="u253_img" class="img " src="images/ue及ui需求/u241_selected.png"/>
+                          </div>
+                          <!-- Unnamed (矩形) -->
+                          <div id="u254" class="" selectiongroup="u239_tree_group">
+                            <div id="u254_div" class=""></div>
+                          </div>
+                          <div id="u252_children" class="u252_children">
+
+                            <!-- Unnamed (树节点) -->
+                            <div id="u255" class="ax_default tree_node treenode">
+                              <!-- Unnamed (矩形) -->
+                              <div id="u256" class="" selectiongroup="u239_tree_group">
+                                <div id="u256_div" class=""></div>
+                                <div id="u256_text" class="text ">
+                                  <p><span>1、导入评价模板</span></p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <!-- Unnamed (树节点) -->
+                            <div id="u257" class="ax_default tree_node treenode">
+                              <!-- Unnamed (矩形) -->
+                              <div id="u258" class="" selectiongroup="u239_tree_group">
+                                <div id="u258_div" class=""></div>
+                              </div>
+                            </div>
+
+                            <!-- Unnamed (树节点) -->
+                            <div id="u259" class="ax_default tree_node treenode">
+                              <!-- Unnamed (矩形) -->
+                              <div id="u260" class="" selectiongroup="u239_tree_group">
+                                <div id="u260_div" class=""></div>
+                                <div id="u260_text" class="text ">
+                                  <p><span>2、进度监控页面</span></p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <!-- Unnamed (树节点) -->
+                            <div id="u261" class="ax_default tree_node treenode">
+                              <!-- Unnamed (矩形) -->
+                              <div id="u262" class="" selectiongroup="u239_tree_group">
+                                <div id="u262_div" class=""></div>
+                              </div>
+                            </div>
+
+                            <!-- Unnamed (树节点) -->
+                            <div id="u263" class="ax_default tree_node treenode">
+                              <!-- Unnamed (矩形) -->
+                              <div id="u264" class="" selectiongroup="u239_tree_group">
+                                <div id="u264_div" class=""></div>
+                                <div id="u264_text" class="text ">
+                                  <p><span>3、发送邮件</span></p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <!-- Unnamed (树节点) -->
+                            <div id="u265" class="ax_default tree_node treenode">
+                              <!-- Unnamed (矩形) -->
+                              <div id="u266" class="" selectiongroup="u239_tree_group">
+                                <div id="u266_div" class=""></div>
+                              </div>
+                            </div>
+
+                            <!-- Unnamed (树节点) -->
+                            <div id="u267" class="ax_default tree_node treenode">
+                              <!-- Unnamed (矩形) -->
+                              <div id="u268" class="" selectiongroup="u239_tree_group">
+                                <div id="u268_div" class=""></div>
+                                <div id="u268_text" class="text ">
+                                  <p><span>4、个人报告【非常重要】</span></p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <!-- Unnamed (树节点) -->
+                            <div id="u269" class="ax_default tree_node treenode">
+                              <!-- Unnamed (矩形) -->
+                              <div id="u270" class="" selectiongroup="u239_tree_group">
+                                <div id="u270_div" class=""></div>
+                              </div>
+                            </div>
+
+                            <!-- Unnamed (树节点) -->
+                            <div id="u271" class="ax_default tree_node treenode">
+                              <!-- Unnamed (矩形) -->
+                              <div id="u272" class="" selectiongroup="u239_tree_group">
+                                <div id="u272_div" class=""></div>
+                                <div id="u272_text" class="text ">
+                                  <p><span>5、评价指标配置</span></p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <!-- Unnamed (树节点) -->
+                            <div id="u273" class="ax_default tree_node treenode">
+                              <!-- Unnamed (矩形) -->
+                              <div id="u274" class="" selectiongroup="u239_tree_group">
+                                <div id="u274_div" class=""></div>
+                              </div>
+                            </div>
+
+                            <!-- Unnamed (树节点) -->
+                            <div id="u275" class="ax_default tree_node treenode">
+                              <!-- Unnamed (矩形) -->
+                              <div id="u276" class="" selectiongroup="u239_tree_group">
+                                <div id="u276_div" class=""></div>
+                                <div id="u276_text" class="text ">
+                                  <p><span>6、报告设置</span></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (树节点) -->
+                    <div id="u277" class="ax_default tree_node treenode">
+                      <!-- Unnamed (矩形) -->
+                      <div id="u278" class="" selectiongroup="u239_tree_group">
+                        <div id="u278_div" class=""></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Unnamed (树节点) -->
+                <div id="u279" class="ax_default tree_node treenode">
+
+                  <!-- Unnamed (图片) -->
+                  <div id="u280" class="ax_default _图片">
+                    <img id="u280_img" class="img " src="images/ue及ui需求/u241_selected.png"/>
+                  </div>
+                  <!-- Unnamed (矩形) -->
+                  <div id="u281" class="" selectiongroup="u239_tree_group">
+                    <div id="u281_div" class=""></div>
+                    <div id="u281_text" class="text ">
+                      <p><span>员工自助端</span></p>
+                    </div>
+                  </div>
+                  <div id="u279_children" class="u279_children">
+
+                    <!-- Unnamed (树节点) -->
+                    <div id="u282" class="ax_default tree_node treenode">
+                      <!-- Unnamed (矩形) -->
+                      <div id="u283" class="" selectiongroup="u239_tree_group">
+                        <div id="u283_div" class=""></div>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (树节点) -->
+                    <div id="u284" class="ax_default tree_node treenode">
+                      <!-- Unnamed (矩形) -->
+                      <div id="u285" class="" selectiongroup="u239_tree_group">
+                        <div id="u285_div" class=""></div>
+                        <div id="u285_text" class="text ">
+                          <p><span>通用诉求</span></p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (树节点) -->
+                    <div id="u286" class="ax_default tree_node treenode">
+                      <!-- Unnamed (矩形) -->
+                      <div id="u287" class="" selectiongroup="u239_tree_group">
+                        <div id="u287_div" class=""></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u288" class="ax_default _文本段落">
+        <div id="u288_div" class=""></div>
+        <div id="u288_text" class="text ">
+          <p><span>管理后台，作为HR端的页面。因为HR端主要是重效率的，因此原则上是以轻便为主。</span></p>
+        </div>
+      </div>
+
+      <!-- 通用诉求 (矩形) -->
+      <div id="u289" class="ax_default _三级标题" data-label="通用诉求">
+        <div id="u289_div" class=""></div>
+        <div id="u289_text" class="text ">
+          <p><span>通用诉求</span></p>
+        </div>
+      </div>
+
+      <!-- PC-特殊页面 (矩形) -->
+      <div id="u290" class="ax_default _三级标题" data-label="PC-特殊页面">
+        <div id="u290_div" class=""></div>
+        <div id="u290_text" class="text ">
+          <p><span>特殊页面</span></p>
+        </div>
+      </div>
+
+      <!-- 1、导入评价模板 (矩形) -->
+      <div id="u291" class="ax_default label" data-label="1、导入评价模板">
+        <div id="u291_div" class=""></div>
+        <div id="u291_text" class="text ">
+          <p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';">1</span><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';font-weight:650;font-style:normal;">、导入评价模板</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u292" class="ax_default" data-left="490" data-top="567" data-width="800" data-height="417">
+
+        <!-- Unnamed (组合) -->
+        <div id="u293" class="ax_default" data-left="490" data-top="567" data-width="800" data-height="417">
+
+          <!-- Unnamed (图片) -->
+          <div id="u294" class="ax_default _图片">
+            <img id="u294_img" class="img " src="images/ue及ui需求/u294.jpg"/>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u295" class="ax_default _一级标题">
+            <div id="u295_div" class=""></div>
+            <div id="u295_text" class="text ">
+              <p><span>典型列表</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (垂直线) -->
+        <div id="u296" class="ax_default line">
+          <img id="u296_img" class="img " src="images/ue及ui需求/u296.png"/>
+        </div>
+
+        <!-- Unnamed (垂直线) -->
+        <div id="u297" class="ax_default line">
+          <img id="u297_img" class="img " src="images/ue及ui需求/u296.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u298" class="ax_default" data-left="490" data-top="1034" data-width="800" data-height="449">
+
+        <!-- Unnamed (组合) -->
+        <div id="u299" class="ax_default" data-left="490" data-top="1034" data-width="800" data-height="444">
+
+          <!-- Unnamed (图片) -->
+          <div id="u300" class="ax_default _图片">
+            <img id="u300_img" class="img " src="images/ue及ui需求/u300.jpg"/>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u301" class="ax_default _一级标题">
+            <div id="u301_div" class=""></div>
+            <div id="u301_text" class="text ">
+              <p><span>搜索</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u302" class="ax_default _一级标题">
+            <div id="u302_div" class=""></div>
+            <div id="u302_text" class="text ">
+              <p><span>按钮</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u303" class="ax_default _一级标题">
+            <div id="u303_div" class=""></div>
+            <div id="u303_text" class="text ">
+              <p><span>列表</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u304" class="ax_default _一级标题">
+            <div id="u304_div" class=""></div>
+            <div id="u304_text" class="text ">
+              <p><span>页签</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (垂直线) -->
+        <div id="u305" class="ax_default line">
+          <img id="u305_img" class="img " src="images/ue及ui需求/u305.png"/>
+        </div>
+
+        <!-- Unnamed (垂直线) -->
+        <div id="u306" class="ax_default line">
+          <img id="u306_img" class="img " src="images/ue及ui需求/u305.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u307" class="ax_default label">
+        <div id="u307_div" class=""></div>
+        <div id="u307_text" class="text ">
+          <p><span>点击查看原始页面</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u308" class="ax_default" data-left="490" data-top="1773" data-width="800" data-height="307">
+
+        <!-- Unnamed (组合) -->
+        <div id="u309" class="ax_default" data-left="490" data-top="1773" data-width="800" data-height="307">
+
+          <!-- Unnamed (图片) -->
+          <div id="u310" class="ax_default _图片">
+            <img id="u310_img" class="img " src="images/ue及ui需求/u310.jpg"/>
+          </div>
+
+          <!-- Unnamed (垂直线) -->
+          <div id="u311" class="ax_default line">
+            <img id="u311_img" class="img " src="images/ue及ui需求/u311.png"/>
+          </div>
+
+          <!-- Unnamed (垂直线) -->
+          <div id="u312" class="ax_default line">
+            <img id="u312_img" class="img " src="images/ue及ui需求/u311.png"/>
+          </div>
+        </div>
+
+        <!-- Unnamed (水平线) -->
+        <div id="u313" class="ax_default line">
+          <img id="u313_img" class="img " src="images/ue及ui需求/u313.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u314" class="ax_default label">
+        <div id="u314_div" class=""></div>
+        <div id="u314_text" class="text ">
+          <p><span>除了导入模板页面以外，还需要导入过程中的进度条、导入结束后的状态设计，可不局限于原型界面的交互</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u315" class="ax_default label">
+        <div id="u315_div" class=""></div>
+        <div id="u315_text" class="text ">
+          <p><span>点击查看原始页面</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u316" class="ax_default line">
+        <img id="u316_img" class="img " src="images/ue及ui需求/u313.png"/>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u317" class="ax_default line">
+        <img id="u317_img" class="img " src="images/ue及ui需求/u313.png"/>
+      </div>
+
+      <!-- 2、进度监控页面 (矩形) -->
+      <div id="u318" class="ax_default label" data-label="2、进度监控页面">
+        <div id="u318_div" class=""></div>
+        <div id="u318_text" class="text ">
+          <p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';">2</span><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';font-weight:650;font-style:normal;">、进度监控页面</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u319" class="ax_default" data-left="490" data-top="2272" data-width="800" data-height="466">
+
+        <!-- Unnamed (组合) -->
+        <div id="u320" class="ax_default" data-left="490" data-top="2272" data-width="800" data-height="466">
+
+          <!-- Unnamed (图片) -->
+          <div id="u321" class="ax_default _图片">
+            <img id="u321_img" class="img " src="images/ue及ui需求/u321.jpg"/>
+          </div>
+
+          <!-- Unnamed (水平线) -->
+          <div id="u322" class="ax_default line">
+            <img id="u322_img" class="img " src="images/ue及ui需求/u313.png"/>
+          </div>
+        </div>
+
+        <!-- Unnamed (垂直线) -->
+        <div id="u323" class="ax_default line">
+          <img id="u323_img" class="img " src="images/ue及ui需求/u323.png"/>
+        </div>
+
+        <!-- Unnamed (垂直线) -->
+        <div id="u324" class="ax_default line">
+          <img id="u324_img" class="img " src="images/ue及ui需求/u323.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u325" class="ax_default label">
+        <div id="u325_div" class=""></div>
+        <div id="u325_text" class="text ">
+          <p><span>活动详情页的进度监控这个页签下面，列表中有一列叫评价进度，这个评价进度需要用进度条来表示。</span></p>
+        </div>
+      </div>
+
+      <!-- 发送邮件页面 (矩形) -->
+      <div id="u326" class="ax_default label" data-label="发送邮件页面">
+        <div id="u326_div" class=""></div>
+        <div id="u326_text" class="text ">
+          <p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;">3</span><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';font-weight:650;">、发送邮件页面</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u327" class="ax_default" data-left="490" data-top="3343" data-width="800" data-height="460">
+
+        <!-- Unnamed (组合) -->
+        <div id="u328" class="ax_default" data-left="490" data-top="3343" data-width="800" data-height="460">
+
+          <!-- Unnamed (图片) -->
+          <div id="u329" class="ax_default _图片">
+            <img id="u329_img" class="img " src="images/ue及ui需求/u329.jpg"/>
+          </div>
+
+          <!-- Unnamed (水平线) -->
+          <div id="u330" class="ax_default line">
+            <img id="u330_img" class="img " src="images/ue及ui需求/u313.png"/>
+          </div>
+        </div>
+
+        <!-- Unnamed (垂直线) -->
+        <div id="u331" class="ax_default line">
+          <img id="u331_img" class="img " src="images/ue及ui需求/u331.png"/>
+        </div>
+
+        <!-- Unnamed (垂直线) -->
+        <div id="u332" class="ax_default line">
+          <img id="u332_img" class="img " src="images/ue及ui需求/u331.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u333" class="ax_default _文本段落">
+        <div id="u333_div" class=""></div>
+        <div id="u333_text" class="text ">
+          <p><span style="color:#5E5E5E;">在活动进度监控页面下，可以选中评价人后进行发送</span><span style="color:#33CCCC;">邮件邀请</span><span style="color:#5E5E5E;">和</span><span style="color:#33CCCC;">邮件催办</span></p><p><span><br></span></p><p><span style="color:#5E5E5E;">发送邮件的这个页面本身的布局可以按照表单通用的布局来设计，但是发送邮件通知的这个邮件正文需要设计一下，发送邮件通知的这个邮件的正文，其实是一个类似于360项目启动时邀请领导参加领导力项目的一个邀请函，尽量不用一个图片，我们会建议前端工程师用HTML来写邮件布局，尽量少用图片，因为在邮件里面可能会打不开被拦截，因此尽量还是用前端脚本去写样式。</span></p><p><span><br></span></p><p><span style="color:#33CCCC;">关于邀请函的补充说明：</span><span style="color:#5E5E5E;">希望可以做成具有东软的特色的邀请函，然后建议这个邮件邀请函的整体风格可以和我们员工作答端的页面的整体风格尽量保持一致，至于东软特色的话，可以往东软特色建筑物，东软企业文化上靠一靠，记得之前好像出过一个平面的东软的水塔和同心湖的宣传page，可以作为参考。</span></p><p><span style="color:#5E5E5E;">另外，整个360测评业务参与的角色主要是东软的管理层，年纪大多数以70后为主，也有一些60后、因此字体不要太小，整个风格的话不要做得特别的卡通。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u334" class="ax_default" data-left="490" data-top="3980" data-width="800" data-height="642">
+
+        <!-- Unnamed (组合) -->
+        <div id="u335" class="ax_default" data-left="490" data-top="3980" data-width="800" data-height="642">
+
+          <!-- Unnamed (图片) -->
+          <div id="u336" class="ax_default _图片">
+            <img id="u336_img" class="img " src="images/ue及ui需求/u336.jpg"/>
+          </div>
+
+          <!-- Unnamed (水平线) -->
+          <div id="u337" class="ax_default line">
+            <img id="u337_img" class="img " src="images/ue及ui需求/u337.png"/>
+          </div>
+        </div>
+
+        <!-- Unnamed (垂直线) -->
+        <div id="u338" class="ax_default line">
+          <img id="u338_img" class="img " src="images/ue及ui需求/u338.png"/>
+        </div>
+
+        <!-- Unnamed (垂直线) -->
+        <div id="u339" class="ax_default line">
+          <img id="u339_img" class="img " src="images/ue及ui需求/u338.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u340" class="ax_default _文本段落">
+        <div id="u340_div" class=""></div>
+        <div id="u340_text" class="text ">
+          <p><span>然后发送催促的这个邮件主要是以简洁为主，需要设计一下整个邮件正文的布局样式，同评价邀请邮件的邮件正文原则一直，尽量不用图片。</span></p>
+        </div>
+      </div>
+
+      <!-- 4、个人报告【极其重要】 (矩形) -->
+      <div id="u341" class="ax_default label" data-label="4、个人报告【极其重要】">
+        <div id="u341_div" class=""></div>
+        <div id="u341_text" class="text ">
+          <p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;">4</span><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';font-weight:650;">、个人报告【极其重要】</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u342" class="ax_default _文本段落">
+        <div id="u342_div" class=""></div>
+        <div id="u342_text" class="text ">
+          <p><span style="font-family:'Arial Normal', 'Arial';">&#149; 360</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">测评业务核心的一个产出就是</span><span style="font-family:'Arial Normal', 'Arial';">360</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">报告，这也是本次业务的重中之重。评价结束后会为每一个被评价人出具一份个人360报告。</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&#149; 个人报告会分很多的内容模块。内容主要是图文结合，核心要求就是报告一定要漂亮。360告的元素及内容基本上已经确定，但是360报告的整体的风格色调以及排版和图形的设计目前还没有特别明确，原型中给出的只是一个样例，仅供参考。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u343" class="ax_default" data-left="490" data-top="4996" data-width="800" data-height="624">
+
+        <!-- Unnamed (图片) -->
+        <div id="u344" class="ax_default _图片">
+          <img id="u344_img" class="img " src="images/ue及ui需求/u344.jpg"/>
+        </div>
+
+        <!-- Unnamed (水平线) -->
+        <div id="u345" class="ax_default line">
+          <img id="u345_img" class="img " src="images/ue及ui需求/u313.png"/>
+        </div>
+      </div>
+
+      <!-- 5、评价指标配置 (矩形) -->
+      <div id="u346" class="ax_default label" data-label="5、评价指标配置">
+        <div id="u346_div" class=""></div>
+        <div id="u346_text" class="text ">
+          <p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;">5</span><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';font-weight:650;">、评价指标配置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u347" class="ax_default _文本段落">
+        <div id="u347_div" class=""></div>
+        <div id="u347_text" class="text ">
+          <p><span>模板中模板详情页的指标配置这个页面，既不是典型的列表页面，也不是典型的表单页面，他是一个比较特殊的页面，因此需要设计师提供相应的页面设计图，这个页面不仅限于页面原型中的布局方式，如果觉得原型中的布局交互会有问题，可以提出修改意见，直接在UI设计图中修正就行，然后商量过后再把原型进行相应的调整。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u348" class="ax_default" data-left="489" data-top="5938" data-width="801" data-height="464">
+
+        <!-- Unnamed (组合) -->
+        <div id="u349" class="ax_default" data-left="489" data-top="5938" data-width="800" data-height="464">
+
+          <!-- Unnamed (组合) -->
+          <div id="u350" class="ax_default" data-left="489" data-top="5938" data-width="800" data-height="464">
+
+            <!-- Unnamed (图片) -->
+            <div id="u351" class="ax_default _图片">
+              <img id="u351_img" class="img " src="images/ue及ui需求/u351.jpg"/>
+            </div>
+
+            <!-- Unnamed (水平线) -->
+            <div id="u352" class="ax_default line">
+              <img id="u352_img" class="img " src="images/ue及ui需求/u313.png"/>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (垂直线) -->
+        <div id="u353" class="ax_default line">
+          <img id="u353_img" class="img " src="images/ue及ui需求/u353.png"/>
+        </div>
+
+        <!-- Unnamed (垂直线) -->
+        <div id="u354" class="ax_default line">
+          <img id="u354_img" class="img " src="images/ue及ui需求/u353.png"/>
+        </div>
+      </div>
+
+      <!-- 报告设置 (矩形) -->
+      <div id="u355" class="ax_default label" data-label="报告设置">
+        <div id="u355_div" class=""></div>
+        <div id="u355_text" class="text ">
+          <p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;">6</span><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';font-weight:650;">、报告设置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u356" class="ax_default" data-left="490" data-top="6776" data-width="802" data-height="450">
+
+        <!-- Unnamed (组合) -->
+        <div id="u357" class="ax_default" data-left="490" data-top="6776" data-width="802" data-height="450">
+
+          <!-- Unnamed (组合) -->
+          <div id="u358" class="ax_default" data-left="490" data-top="6776" data-width="802" data-height="450">
+
+            <!-- Unnamed (图片) -->
+            <div id="u359" class="ax_default _图片">
+              <img id="u359_img" class="img " src="images/ue及ui需求/u359.jpg"/>
+            </div>
+
+            <!-- Unnamed (水平线) -->
+            <div id="u360" class="ax_default line">
+              <img id="u360_img" class="img " src="images/ue及ui需求/u360.png"/>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (垂直线) -->
+        <div id="u361" class="ax_default line">
+          <img id="u361_img" class="img " src="images/ue及ui需求/u361.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u362" class="ax_default _文本段落">
+        <div id="u362_div" class=""></div>
+        <div id="u362_text" class="text ">
+          <p><span>报告设置的这个页面也是一个比较特殊的页面。该页面除了承载个人报告设置，后续可能还会有一个团队报告设置。但是团队报告设置的内容目前还是暂定，所以暂时先不做，后续迭代中再做。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u363" class="ax_default _文本段落">
+        <div id="u363_div" class=""></div>
+        <div id="u363_text" class="text ">
+          <p><span>【个人报告】是针对报告里面结构出来进行参数设置的，每个模块会设定一些参数以及对这个模块的一些描述，目前的这个需求版本中的参数，只有勾选相应的指标的设置，后续的话可能还会增加其他的设置参数。</span></p>
+        </div>
+      </div>
+
+      <!-- 二、员工自助端的UI即UE诉求 (矩形) -->
+      <div id="u364" class="ax_default _二级标题" data-label="二、员工自助端的UI即UE诉求">
+        <div id="u364_div" class=""></div>
+        <div id="u364_text" class="text ">
+          <p><span>二、员工自助端的UI及UE诉求</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u365" class="ax_default _文本段落">
+        <div id="u365_div" class=""></div>
+        <div id="u365_text" class="text ">
+          <p><span>1、员工自助分为两个部分：员工作答端和员工查看报告</span></p><p><span>2、员工自助端：UI及UE的重点是用户体验。</span></p><p><span>3、自助端面向的用户群体：管理者+普通员工。管理者要全程参与360评价，因此如何保证管理者（尤其是年纪大一些视力不太好，对手机操作不是非常敏感的人）如何顺利完成业务是本次的交互设计的重中之重。</span></p><p><span>4、员工自助端的所有内容需要支持多语言切换（中、日、英），因此在页面UI设计及交互时需要考虑不同语种对页面的UI展示的冲击（比如中、日文可能比较短，英文相对比较长），除此之外需要考虑页面中的中英文切换的方式。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u366" class="ax_default _文本段落">
+        <div id="u366_div" class=""></div>
+        <div id="u366_text" class="text ">
+          <p><span>员工端的UI及UE的需求说明已经标注在文档上面了。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u367" class="ax_default _文本段落">
+        <div id="u367_div" class=""></div>
+        <div id="u367_text" class="text ">
+          <p><span>https://org.modao.cc/app/8jO5DGVqSaR5zJoU1E6TdkB4hZygax4</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u368" class="ax_default _文本段落">
+        <div id="u368_div" class=""></div>
+        <div id="u368_text" class="text ">
+          <p><span>demo地址（建议用PC查看）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u369" class="ax_default _文本段落">
+        <div id="u369_div" class=""></div>
+        <div id="u369_text" class="text ">
+          <p><span>打开demo后，按如下图所示查看标注说明</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u370" class="ax_default _图片">
+        <img id="u370_img" class="img " src="images/ue及ui需求/u370.jpg"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u371" class="ax_default label">
+        <div id="u371_div" class=""></div>
+        <div id="u371_text" class="text ">
+          <p><span>点击查看原始页面</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u372" class="ax_default label">
+        <div id="u372_div" class=""></div>
+        <div id="u372_text" class="text ">
+          <p><span>点击查看原始页面</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u373" class="ax_default label">
+        <div id="u373_div" class=""></div>
+        <div id="u373_text" class="text ">
+          <p><span>点击查看原始页面</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (垂直线) -->
+      <div id="u374" class="ax_default line">
+        <img id="u374_img" class="img " src="images/ue及ui需求/u374.png"/>
+      </div>
+
+      <!-- Unnamed (垂直线) -->
+      <div id="u375" class="ax_default line">
+        <img id="u375_img" class="img " src="images/ue及ui需求/u374.png"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u376" class="ax_default label">
+        <div id="u376_div" class=""></div>
+        <div id="u376_text" class="text ">
+          <p><span>点击查看原始页面</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u377" class="ax_default label">
+        <div id="u377_div" class=""></div>
+        <div id="u377_text" class="text ">
+          <p><span>点击查看原始页面</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u378" class="ax_default label">
+        <div id="u378_div" class=""></div>
+        <div id="u378_text" class="text ">
+          <p><span>点击查看原始页面</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u379" class="ax_default label">
+        <div id="u379_div" class=""></div>
+        <div id="u379_text" class="text ">
+          <p><span>点击查看原始页面</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
